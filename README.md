@@ -39,6 +39,6 @@ Welcome to my GitHub profile! I'm a **`Software Engineer`** with experience in *
 
 <br/>
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=horlesq&show_icons=true&theme=dracula&hide_border=false" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=horlesq&locale=en&hide_title=false&layout=compact&card_width=600&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=horlesq&show_icons=true&card_width=500&&theme=dracula&hide_border=false" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=horlesq&locale=en&hide_title=false&layout=compact&card_width=500&langs_count=10&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
 </div>
