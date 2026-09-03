@@ -1,6 +1,9 @@
 # 🏂 Horlesq
 
-Welcome to my GitHub profile! I'm a **`Software Engineer`** with experience in **embedded systems** and currently expanding my knowledge in **full-stack development**, **machine learning**, and **artificial intelligence**. Here, you'll find my projects and experiments!
+Welcome to my GitHub profile!. 
+
+-  I'm an Automation Engineer passionate about software, AI, and design
+-  Currently building [punch-app](https://github.com/horlesq/punch-app) and maintaining [gamelog](https://github.com/horlesq/gamelog).
 
 <br/>
 <div align="center">
