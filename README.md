@@ -28,8 +28,7 @@ Welcome to my GitHub profile!.
 </div>
 
 
-Feel free to connect with me 👋
-<br><br>
+<h3>Let's connect</h3>
 <a href="https://x.com/horlesq" target="_blank"><img src="https://img.shields.io/badge/X-horlesq-000000"></a>
 <a href="https://linkedin.com/in/adrian-horlescu" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-adrian--horlescu-0077B5"></a>
 <a href="https://horly.dev" target="_blank"><img src="https://img.shields.io/badge/Personal%20Site-horly.dev-blueviolet"></a>
