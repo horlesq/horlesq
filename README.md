@@ -20,13 +20,19 @@ Welcome to my GitHub profile!.
   <img alt="Git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
 </p>
 
-<br/>
-<div align="center">
+
 
   
 ![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=horlesq&show_icons=true&theme=radical)
 ![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/streak?username=horlesq&theme=radical)
 </div>
 
+
+Feel free to connect with me 👋
+<br><br>
+<a href="https://x.com/horlesq" target="_blank"><img src="https://img.shields.io/badge/X-horlesq-000000"></a>
+<a href="https://linkedin.com/in/adrian-horlescu" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-adrian--horlescu-0077B5"></a>
+<a href="https://horly.dev" target="_blank"><img src="https://img.shields.io/badge/Personal%20Site-horly.dev-blueviolet"></a>
+<a href="mailto:hello@horly.dev"><img src="https://img.shields.io/badge/Email-hello%40horly.dev-orange"></a>  
  <!--
 ![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=horlesq&layout=compact&theme=radical)-->
