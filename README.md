@@ -11,6 +11,7 @@ Welcome to my GitHub profile!.
   <img alt="Next.js" src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
   <img alt="Expo" src="https://img.shields.io/badge/-Expo-000020?style=flat-square&logo=expo&logoColor=white" />
   <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white" />
   <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img alt="FastAPI" src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
   <img alt="PostgreSQL" src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
@@ -23,9 +24,8 @@ Welcome to my GitHub profile!.
 
 
   
-![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=horlesq&show_icons=true&theme=radical)
-![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/streak?username=horlesq&theme=radical)
-</div>
+ <!-- ![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=horlesq&show_icons=true&theme=radical)
+      ![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/streak?username=horlesq&theme=radical)-->
 
 
 <h3>Let's connect</h3>
