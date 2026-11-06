@@ -2,7 +2,7 @@
 
 Welcome to my GitHub profile!. 
 
--  I'm an Automation Engineer passionate about software, AI, and design
+-  I'm an Automation Engineer passionate about software, embedded systems, AI, and design
 -  Currently building [punch-app](https://github.com/horlesq/punch-app) and maintaining [gamelog](https://github.com/horlesq/gamelog).
 
 <h3>Stack & Tools</h3>
