@@ -27,7 +27,7 @@
   <img src="assets/stack.svg" width="100%" alt="Tech stack. Frontend: React, Next.js, TypeScript. Mobile: Expo. Backend: Node.js, Python, FastAPI. Data: PostgreSQL, Supabase. Infra and automation: Docker, n8n, Git. Embedded and systems: C, C++, Rust." />
 </p>
 
-## Let's connect
+## 
 
 <p align="center">
   <a href="https://horly.dev"><img alt="horly.dev" src="https://img.shields.io/badge/horly.dev-0f1c3a?style=for-the-badge&logo=googlechrome&logoColor=9cc4ff" /></a>
