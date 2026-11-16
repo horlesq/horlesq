@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/typing.svg" alt="automating the boring stuff · shipping punch-app & gamelog · software · embedded · AI · design" />
+  <img src="assets/typing.svg" alt="it works on my machine · turning coffee into commits · rm -rf node_modules &amp;&amp; pray · fighting the borrow checker · ..." />
 </p>
 
 <p align="center">
@@ -34,7 +34,7 @@
 ### 🧰 Stack & Tools
 
 <p align="center">
-  <img src="assets/stack.svg" width="100%" alt="Tech stack. Frontend: React, Next.js, TypeScript. Mobile: Expo. Backend: Node.js, Python, FastAPI. Data: PostgreSQL, Supabase. Infra and automation: Docker, n8n, Git." />
+  <img src="assets/stack.svg" width="100%" alt="Tech stack. Frontend: React, Next.js, TypeScript. Mobile: Expo. Backend: Node.js, Python, FastAPI. Data: PostgreSQL, Supabase. Infra and automation: Docker, n8n, Git. Embedded and systems: C, C++, Rust." />
 </p>
 
 <p align="center">
