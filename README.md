@@ -9,7 +9,7 @@
 ## About me
 
 <p align="center">
-  <img src="assets/about.svg" width="100%" alt="const horlesq = { role: 'Automation Engineer', building: 'punch-app', maintaining: 'gamelog', interests: ['software', 'embedded', 'AI', 'design'], selfHosts: ['n8n', 'gamelog', 'anything with a Dockerfile'], offline: 'snowboarding' }" />
+  <img src="assets/about.svg" width="100%" alt="const horlesq = { role: 'Automation Engineer', building: 'punch-app', maintaining: 'gamelog', interests: ['software', 'embedded', 'AI', 'design'], selfHosts: ['n8n', 'gamelog', 'anything with a Dockerfile'], offline: ['snowboarding', 'mountain biking', 'weightlifting', 'running'] }" />
 </p>
 
 <!--## Featured projects
