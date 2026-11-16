@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 520" width="1280" height="520" role="img" aria-label="About me: Automation Engineer building punch-app, maintaining gamelog; into software, embedded, AI and design.">
+<defs>
+  <linearGradient id="scr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1734"/><stop offset="1" stop-color="#16285a"/></linearGradient>
+  <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d3166"/><stop offset="1" stop-color="#162754"/></linearGradient>
+  <linearGradient id="bez" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a3550"/><stop offset=".08" stop-color="#151c2e"/><stop offset="1" stop-color="#0b101c"/></linearGradient>
+  <linearGradient id="chin" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c9d3e3"/><stop offset="1" stop-color="#8e9bb2"/></linearGradient>
+  <linearGradient id="neck" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7d8aa3"/><stop offset=".45" stop-color="#d6deea"/><stop offset="1" stop-color="#6f7c95"/></linearGradient>
+  <linearGradient id="foot" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dfe6f1"/><stop offset="1" stop-color="#9aa7bd"/></linearGradient>
+  <linearGradient id="glare" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".10"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <linearGradient id="hl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5fd0ff" stop-opacity="0"/><stop offset=".5" stop-color="#e8f4ff"/><stop offset="1" stop-color="#5fd0ff" stop-opacity="0"/></linearGradient>
+  <radialGradient id="shadow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#000" stop-opacity=".45"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+  <filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="28"/></filter>
+  <clipPath id="sclip"><rect x="1" y="1" width="1278" height="518" rx="21"/></clipPath>
+  <filter id="drop" x="-10%" y="-10%" width="120%" height="140%"><feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000" flood-opacity=".45"/></filter>
+</defs>
+<style>
+  text {font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace;font-size:26px}
+  .ttl {font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;font-size:15px;fill:#9fb6d9}
+  @keyframes blink {0%,49%{opacity:1}50%,100%{opacity:0}}
+  @keyframes sweep {0%{transform:translateX(-1278px)}55%,100%{transform:translateX(1278px)}}
+  @keyframes breathe {0%,100%{opacity:.35}50%{opacity:.6}}
+  @keyframes led {0%,100%{opacity:1}50%{opacity:.3}}
+  .cur {animation:blink 1s step-end infinite}
+  .sw {animation:sweep 7s ease-in-out infinite}
+  .gl {animation:breathe 5s ease-in-out infinite}
+  
+</style>
+<!-- screen glow -->
+
+<!-- screen -->
+<rect x="1" y="1" width="1278" height="518" rx="21" fill="url(#scr)"/>
+<g clip-path="url(#sclip)">
+  <rect x="1" y="1" width="1278" height="42" fill="url(#bar)"/>
+  <rect class="sw" x="1" y="43" width="1278" height="1.5" fill="url(#hl)"/>
+  <rect x="113" y="8" width="150" height="35" rx="7" fill="#0d1734"/>
+  <rect x="1" y="43" width="76" height="476" fill="#0a1229" opacity=".6"/>
+  <circle cx="25" cy="22" r="6.5" fill="#ff5d73"/><circle cx="47" cy="22" r="6.5" fill="#ffc53d"/><circle cx="69" cy="22" r="6.5" fill="#2cf5c4"/>
+  <rect x="127" y="20" width="12" height="12" rx="2" fill="#3178c6"/>
+  <text class="ttl" x="147" y="31">about.ts</text>
+  <text class="ttl" x="1257" y="31" text-anchor="end" opacity=".7">horlesq — TypeScript</text>
+  <clipPath id="l0"><rect x="95" y="79" width="0" height="40">
+  <animate attributeName="width" from="0" to="180" begin="0.60s" dur="0.20s" fill="freeze"/></rect></clipPath>
+<text x="97" y="105" clip-path="url(#l0)" xml:space="preserve" textLength="171.6" lengthAdjust="spacing"><tspan fill="#5d76a6" font-style="italic">// about.ts</tspan></text>
+<text x="63" y="105" text-anchor="end" fill="#3d5584" font-size="22">1</text>
+<clipPath id="l1"><rect x="95" y="119" width="0" height="40">
+  <animate attributeName="width" from="0" to="273" begin="0.85s" dur="0.24s" fill="freeze"/></rect></clipPath>
+<text x="97" y="145" clip-path="url(#l1)" xml:space="preserve" textLength="265.2" lengthAdjust="spacing"><tspan fill="#c77dff">const </tspan><tspan fill="#e6edf3">horlesq</tspan><tspan fill="#7f9ccc"> = {</tspan></text>
+<text x="63" y="145" text-anchor="end" fill="#3d5584" font-size="22">2</text>
+<clipPath id="l2"><rect x="95" y="159" width="0" height="40">
+  <animate attributeName="width" from="0" to="585" begin="1.14s" dur="0.52s" fill="freeze"/></rect></clipPath>
+<text x="97" y="185" clip-path="url(#l2)" xml:space="preserve" textLength="577.2" lengthAdjust="spacing"><tspan fill="#5fd0ff">  role</tspan><tspan fill="#7f9ccc">:        </tspan><tspan fill="#ffc53d">&quot;Automation Engineer&quot;</tspan><tspan fill="#7f9ccc">,</tspan></text>
+<text x="63" y="185" text-anchor="end" fill="#3d5584" font-size="22">3</text>
+<clipPath id="l3"><rect x="95" y="199" width="0" height="40">
+  <animate attributeName="width" from="0" to="882" begin="1.71s" dur="0.78s" fill="freeze"/></rect></clipPath>
+<text x="97" y="225" clip-path="url(#l3)" xml:space="preserve" textLength="873.6" lengthAdjust="spacing"><tspan fill="#5fd0ff">  building</tspan><tspan fill="#7f9ccc">:    </tspan><tspan fill="#ffc53d">&quot;punch-app&quot;</tspan><tspan fill="#7f9ccc">,   </tspan><tspan fill="#5d76a6" font-style="italic">// time tracking &amp; payroll</tspan></text>
+<text x="63" y="225" text-anchor="end" fill="#3d5584" font-size="22">4</text>
+<clipPath id="l4"><rect x="95" y="239" width="0" height="40">
+  <animate attributeName="width" from="0" to="897" begin="2.54s" dur="0.80s" fill="freeze"/></rect></clipPath>
+<text x="97" y="265" clip-path="url(#l4)" xml:space="preserve" textLength="889.2" lengthAdjust="spacing"><tspan fill="#5fd0ff">  maintaining</tspan><tspan fill="#7f9ccc">: </tspan><tspan fill="#ffc53d">&quot;gamelog&quot;</tspan><tspan fill="#7f9ccc">,     </tspan><tspan fill="#5d76a6" font-style="italic">// self-hosted game library</tspan></text>
+<text x="63" y="265" text-anchor="end" fill="#3d5584" font-size="22">5</text>
+<clipPath id="l5"><rect x="95" y="279" width="0" height="40">
+  <animate attributeName="width" from="0" to="882" begin="3.39s" dur="0.78s" fill="freeze"/></rect></clipPath>
+<text x="97" y="305" clip-path="url(#l5)" xml:space="preserve" textLength="873.6" lengthAdjust="spacing"><tspan fill="#5fd0ff">  interests</tspan><tspan fill="#7f9ccc">:   [</tspan><tspan fill="#ffc53d">&quot;software&quot;</tspan><tspan fill="#7f9ccc">, </tspan><tspan fill="#ffc53d">&quot;embedded&quot;</tspan><tspan fill="#7f9ccc">, </tspan><tspan fill="#ffc53d">&quot;AI&quot;</tspan><tspan fill="#7f9ccc">, </tspan><tspan fill="#ffc53d">&quot;design&quot;</tspan><tspan fill="#7f9ccc">],</tspan></text>
+<text x="63" y="305" text-anchor="end" fill="#3d5584" font-size="22">6</text>
+<clipPath id="l6"><rect x="95" y="319" width="0" height="40">
+  <animate attributeName="width" from="0" to="1006" begin="4.22s" dur="0.90s" fill="freeze"/></rect></clipPath>
+<text x="97" y="345" clip-path="url(#l6)" xml:space="preserve" textLength="998.4" lengthAdjust="spacing"><tspan fill="#5fd0ff">  selfHosts</tspan><tspan fill="#7f9ccc">:   [</tspan><tspan fill="#ffc53d">&quot;n8n&quot;</tspan><tspan fill="#7f9ccc">, </tspan><tspan fill="#ffc53d">&quot;gamelog&quot;</tspan><tspan fill="#7f9ccc">, </tspan><tspan fill="#ffc53d">&quot;anything with a Dockerfile&quot;</tspan><tspan fill="#7f9ccc">],</tspan></text>
+<text x="63" y="345" text-anchor="end" fill="#3d5584" font-size="22">7</text>
+<clipPath id="l7"><rect x="95" y="359" width="0" height="40">
+  <animate attributeName="width" from="0" to="788" begin="5.17s" dur="0.70s" fill="freeze"/></rect></clipPath>
+<text x="97" y="385" clip-path="url(#l7)" xml:space="preserve" textLength="780.0" lengthAdjust="spacing"><tspan fill="#5fd0ff">  offline</tspan><tspan fill="#7f9ccc">:     [</tspan><tspan fill="#ffc53d">&quot;snowboarding&quot;</tspan><tspan fill="#7f9ccc">, </tspan><tspan fill="#ffc53d">&quot;mountain biking&quot;</tspan><tspan fill="#7f9ccc">,</tspan></text>
+<text x="63" y="385" text-anchor="end" fill="#3d5584" font-size="22">8</text>
+<clipPath id="l8"><rect x="95" y="399" width="0" height="40">
+  <animate attributeName="width" from="0" to="694" begin="5.92s" dur="0.62s" fill="freeze"/></rect></clipPath>
+<text x="97" y="425" clip-path="url(#l8)" xml:space="preserve" textLength="686.4" lengthAdjust="spacing"><tspan fill="#7f9ccc">                </tspan><tspan fill="#ffc53d">&quot;weightlifting&quot;</tspan><tspan fill="#7f9ccc">, </tspan><tspan fill="#ffc53d">&quot;running&quot;</tspan><tspan fill="#7f9ccc">],</tspan></text>
+<text x="63" y="425" text-anchor="end" fill="#3d5584" font-size="22">9</text>
+<clipPath id="l9"><rect x="95" y="439" width="0" height="40">
+  <animate attributeName="width" from="0" to="39" begin="6.58s" dur="0.20s" fill="freeze"/></rect></clipPath>
+<text x="97" y="465" clip-path="url(#l9)" xml:space="preserve" textLength="31.2" lengthAdjust="spacing"><tspan fill="#7f9ccc">};</tspan></text>
+<text x="63" y="465" text-anchor="end" fill="#3d5584" font-size="22">10</text>
+  <g visibility="hidden"><set attributeName="visibility" to="visible" begin="6.78s" fill="freeze"/>
+    <rect class="cur" x="132" y="441" width="12" height="30" rx="2" fill="#ff5d73"/>
+  </g>
+</g>
+<rect x="1.75" y="1.75" width="1276.5" height="516.5" rx="20.5" fill="none" stroke="#9cc4ff" stroke-opacity=".25" stroke-width="2"/>
+</svg>
