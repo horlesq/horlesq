@@ -1,0 +1,476 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" width="1280" height="420" role="img" aria-label="Horlesq — Automation Engineer">
+<title>Horlesq — Automation Engineer</title>
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#070b1d"/><stop offset=".45" stop-color="#14224a"/><stop offset="1" stop-color="#36588f"/>
+  </linearGradient>
+  <linearGradient id="aur" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2cf5c4" stop-opacity="0"/><stop offset=".25" stop-color="#2cf5c4" stop-opacity=".55"/>
+    <stop offset=".6" stop-color="#7b8cff" stop-opacity=".45"/><stop offset="1" stop-color="#c77dff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="ttl" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/><stop offset=".55" stop-color="#e3eeff"/><stop offset="1" stop-color="#9cc4ff"/>
+  </linearGradient>
+  <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f7fbff"/><stop offset="1" stop-color="#cfdff3"/>
+  </linearGradient>
+  <linearGradient id="hill2" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#c3d5ee"/><stop offset="1" stop-color="#e5eefa"/>
+  </linearGradient>
+  <radialGradient id="moon" cx=".5" cy=".5" r=".5">
+    <stop offset="0" stop-color="#fffdf2"/><stop offset=".55" stop-color="#fff6d6"/><stop offset="1" stop-color="#fff6d6" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="blur" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  <filter id="glow" x="-10%" y="-30%" width="120%" height="160%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="frame"><rect width="1280" height="420" rx="22"/></clipPath>
+  <path id="ride" d="M1262,236 C1215,246 1190,236 1150,252 S1080,290 1035,288 S955,300 915,322 S835,342 790,348 S700,372 650,404 L610,440"/>
+</defs>
+<style>
+  @keyframes tw {0%,100%{opacity:.15}50%{opacity:1}}
+  @keyframes aur {0%,100%{transform:translateX(-30px) scaleY(1);opacity:.75}50%{transform:translateX(40px) scaleY(1.25);opacity:1}}
+  @keyframes aur2 {0%,100%{transform:translateX(30px);opacity:.5}50%{transform:translateX(-50px);opacity:.85}}
+  @keyframes spray {0%,100%{opacity:.9;transform:translate(0,0)}50%{opacity:.3;transform:translate(4px,-3px)}}
+  @keyframes rise {from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+  @keyframes bob {0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+  .aur1 {animation:aur 11s ease-in-out infinite;transform-origin:640px 90px}
+  .aur2 {animation:aur2 15s ease-in-out infinite;transform-origin:640px 120px}
+  .spray {animation:spray .5s ease-in-out infinite}
+  .ttl {animation:rise 1.2s cubic-bezier(.2,.8,.2,1) both, bob 6s ease-in-out 1.2s infinite}
+  .sub {animation:rise 1.2s cubic-bezier(.2,.8,.2,1) .35s both}
+  .tag {animation:rise 1.2s cubic-bezier(.2,.8,.2,1) .6s both}
+  .s0{animation:tw 2.8s ease-in-out -1.5s infinite}
+.s1{animation:tw 2.6s ease-in-out -1.1s infinite}
+.s2{animation:tw 2.7s ease-in-out -1.5s infinite}
+.s3{animation:tw 4.5s ease-in-out -1.8s infinite}
+.s4{animation:tw 3.5s ease-in-out -0.5s infinite}
+.s5{animation:tw 2.9s ease-in-out -1.6s infinite}
+.s6{animation:tw 4.5s ease-in-out -2.8s infinite}
+.s7{animation:tw 4.1s ease-in-out -3.8s infinite}
+.s8{animation:tw 4.9s ease-in-out -1.2s infinite}
+.s9{animation:tw 5.1s ease-in-out -1.5s infinite}
+.s10{animation:tw 3.1s ease-in-out -1.1s infinite}
+.s11{animation:tw 5.2s ease-in-out -3.0s infinite}
+.s12{animation:tw 4.6s ease-in-out -2.7s infinite}
+.s13{animation:tw 4.2s ease-in-out -2.8s infinite}
+.s14{animation:tw 3.5s ease-in-out -1.3s infinite}
+.s15{animation:tw 3.7s ease-in-out -2.3s infinite}
+.s16{animation:tw 3.0s ease-in-out -0.7s infinite}
+.s17{animation:tw 3.1s ease-in-out -1.2s infinite}
+.s18{animation:tw 5.5s ease-in-out -1.5s infinite}
+.s19{animation:tw 5.9s ease-in-out -0.9s infinite}
+.s20{animation:tw 2.5s ease-in-out -2.1s infinite}
+.s21{animation:tw 4.0s ease-in-out -1.5s infinite}
+.s22{animation:tw 4.1s ease-in-out -3.6s infinite}
+.s23{animation:tw 3.9s ease-in-out -1.5s infinite}
+.s24{animation:tw 2.7s ease-in-out -0.6s infinite}
+.s25{animation:tw 2.9s ease-in-out -1.6s infinite}
+.s26{animation:tw 2.7s ease-in-out -0.6s infinite}
+.s27{animation:tw 4.6s ease-in-out -2.2s infinite}
+.s28{animation:tw 4.2s ease-in-out -1.3s infinite}
+.s29{animation:tw 4.2s ease-in-out -2.9s infinite}
+.s30{animation:tw 3.0s ease-in-out -1.6s infinite}
+.s31{animation:tw 4.9s ease-in-out -1.3s infinite}
+.s32{animation:tw 4.4s ease-in-out -3.4s infinite}
+.s33{animation:tw 5.3s ease-in-out -4.4s infinite}
+.s34{animation:tw 3.7s ease-in-out -0.1s infinite}
+.s35{animation:tw 3.2s ease-in-out -1.9s infinite}
+.s36{animation:tw 5.8s ease-in-out -2.1s infinite}
+.s37{animation:tw 3.7s ease-in-out -1.8s infinite}
+.s38{animation:tw 4.2s ease-in-out -2.7s infinite}
+.s39{animation:tw 5.7s ease-in-out -4.4s infinite}
+.s40{animation:tw 4.0s ease-in-out -2.6s infinite}
+.s41{animation:tw 4.1s ease-in-out -3.1s infinite}
+.s42{animation:tw 2.6s ease-in-out -1.5s infinite}
+.s43{animation:tw 4.8s ease-in-out -1.7s infinite}
+.s44{animation:tw 5.3s ease-in-out -3.8s infinite}
+.s45{animation:tw 4.0s ease-in-out -3.5s infinite}
+.s46{animation:tw 3.2s ease-in-out -1.6s infinite}
+.s47{animation:tw 5.4s ease-in-out -0.3s infinite}
+.s48{animation:tw 5.4s ease-in-out -4.7s infinite}
+.s49{animation:tw 5.6s ease-in-out -4.3s infinite}
+.s50{animation:tw 3.1s ease-in-out -1.5s infinite}
+.s51{animation:tw 4.9s ease-in-out -2.6s infinite}
+.s52{animation:tw 3.4s ease-in-out -0.9s infinite}
+.s53{animation:tw 5.2s ease-in-out -4.7s infinite}
+.s54{animation:tw 4.9s ease-in-out -2.2s infinite}
+  .f0{animation:fallf 17.8s linear -12.4s infinite;--dx:30px}
+.f1{animation:fallf 16.7s linear -14.1s infinite;--dx:-29px}
+.f2{animation:fallf 15.6s linear -1.1s infinite;--dx:14px}
+.f3{animation:fallf 20.8s linear -13.8s infinite;--dx:-29px}
+.f4{animation:fallf 22.0s linear -8.8s infinite;--dx:-1px}
+.f5{animation:fallf 16.7s linear -8.6s infinite;--dx:-13px}
+.f6{animation:fallf 6.9s linear -3.8s infinite;--dx:-5px}
+.f7{animation:fallf 12.0s linear -0.8s infinite;--dx:39px}
+.f8{animation:fallf 15.4s linear -0.6s infinite;--dx:22px}
+.f9{animation:fallf 18.3s linear -15.0s infinite;--dx:-19px}
+.f10{animation:fallf 14.3s linear -1.3s infinite;--dx:-35px}
+.f11{animation:fallf 22.0s linear -14.0s infinite;--dx:24px}
+.f12{animation:fallf 22.0s linear -10.0s infinite;--dx:-13px}
+.f13{animation:fallf 11.3s linear -5.9s infinite;--dx:-21px}
+.f14{animation:fallf 15.4s linear -4.8s infinite;--dx:-16px}
+.f15{animation:fallf 9.7s linear -3.4s infinite;--dx:-39px}
+.f16{animation:fallf 11.4s linear -2.2s infinite;--dx:-2px}
+.f17{animation:fallf 9.9s linear -4.9s infinite;--dx:27px}
+.f18{animation:fallf 15.6s linear -5.4s infinite;--dx:27px}
+.f19{animation:fallf 12.4s linear -0.7s infinite;--dx:-30px}
+.f20{animation:fallf 11.8s linear -1.0s infinite;--dx:27px}
+.f21{animation:fallf 12.5s linear -3.7s infinite;--dx:-3px}
+.f22{animation:fallf 21.7s linear -21.1s infinite;--dx:4px}
+.f23{animation:fallf 13.6s linear -0.0s infinite;--dx:-9px}
+.f24{animation:fallf 17.0s linear -0.1s infinite;--dx:-19px}
+.f25{animation:fallf 12.7s linear -3.9s infinite;--dx:-21px}
+.f26{animation:fallf 12.2s linear -8.7s infinite;--dx:30px}
+.f27{animation:fallf 6.8s linear -5.0s infinite;--dx:11px}
+.f28{animation:fallf 10.9s linear -8.0s infinite;--dx:25px}
+.f29{animation:fallf 16.4s linear -13.2s infinite;--dx:26px}
+.f30{animation:fallf 13.1s linear -3.0s infinite;--dx:-38px}
+.f31{animation:fallf 22.0s linear -12.3s infinite;--dx:10px}
+.f32{animation:fallf 8.0s linear -6.4s infinite;--dx:20px}
+.f33{animation:fallf 7.6s linear -5.6s infinite;--dx:-20px}
+.f34{animation:fallf 8.5s linear -6.3s infinite;--dx:38px}
+.f35{animation:fallf 15.1s linear -11.6s infinite;--dx:9px}
+.f36{animation:fallf 14.5s linear -10.8s infinite;--dx:-16px}
+.f37{animation:fallf 16.2s linear -10.9s infinite;--dx:15px}
+.f38{animation:fallf 12.5s linear -5.8s infinite;--dx:-31px}
+.f39{animation:fallf 12.7s linear -0.2s infinite;--dx:-3px}
+.f40{animation:fallf 11.1s linear -2.3s infinite;--dx:36px}
+.f41{animation:fallf 18.4s linear -17.5s infinite;--dx:-29px}
+.f42{animation:fallf 11.6s linear -2.7s infinite;--dx:32px}
+.f43{animation:fallf 21.1s linear -9.5s infinite;--dx:-16px}
+.f44{animation:fallf 19.2s linear -0.0s infinite;--dx:20px}
+.f45{animation:fallf 11.4s linear -10.3s infinite;--dx:-17px}
+.f46{animation:fallf 10.0s linear -3.6s infinite;--dx:-6px}
+.f47{animation:fallf 22.0s linear -6.3s infinite;--dx:35px}
+.f48{animation:fallf 9.8s linear -3.6s infinite;--dx:36px}
+.f49{animation:fallf 15.6s linear -14.7s infinite;--dx:4px}
+.f50{animation:fallf 10.6s linear -8.0s infinite;--dx:12px}
+.f51{animation:fallf 6.9s linear -3.3s infinite;--dx:-13px}
+.f52{animation:fallf 7.7s linear -5.0s infinite;--dx:-16px}
+.f53{animation:fallf 12.9s linear -2.7s infinite;--dx:32px}
+.f54{animation:fallf 13.7s linear -6.2s infinite;--dx:-29px}
+.f55{animation:fallf 10.1s linear -2.4s infinite;--dx:-19px}
+.f56{animation:fallf 10.1s linear -4.2s infinite;--dx:2px}
+.f57{animation:fallf 16.3s linear -15.8s infinite;--dx:-30px}
+.f58{animation:fallf 7.9s linear -2.1s infinite;--dx:-20px}
+.f59{animation:fallf 12.2s linear -10.7s infinite;--dx:-38px}
+.f60{animation:fallf 9.7s linear -5.7s infinite;--dx:-40px}
+.f61{animation:fallf 13.2s linear -12.9s infinite;--dx:-20px}
+.f62{animation:fallf 14.6s linear -13.7s infinite;--dx:18px}
+.f63{animation:fallf 14.0s linear -0.6s infinite;--dx:23px}
+.f64{animation:fallf 9.9s linear -1.3s infinite;--dx:-20px}
+.f65{animation:fallf 12.4s linear -6.5s infinite;--dx:7px}
+.f66{animation:fallf 7.4s linear -2.2s infinite;--dx:-3px}
+.f67{animation:fallf 9.8s linear -2.3s infinite;--dx:-20px}
+.f68{animation:fallf 9.6s linear -4.8s infinite;--dx:14px}
+.f69{animation:fallf 15.3s linear -3.5s infinite;--dx:-37px}
+@keyframes fallf{from{transform:translate(0,0)}to{transform:translate(var(--dx),440px)}}
+</style>
+<g clip-path="url(#frame)">
+  <rect width="1280" height="420" fill="url(#sky)"/>
+  <circle class="s0" cx="415" cy="32" r="0.7" fill="#fff"/>
+<circle class="s1" cx="468" cy="12" r="0.9" fill="#fff"/>
+<circle class="s2" cx="89" cy="19" r="1.4" fill="#fff"/>
+<circle class="s3" cx="1213" cy="132" r="0.7" fill="#fff"/>
+<circle class="s4" cx="1250" cy="10" r="0.9" fill="#fff"/>
+<circle class="s5" cx="151" cy="65" r="0.9" fill="#fff"/>
+<circle class="s6" cx="240" cy="20" r="0.7" fill="#fff"/>
+<circle class="s7" cx="635" cy="112" r="1.1" fill="#fff"/>
+<circle class="s8" cx="463" cy="52" r="0.9" fill="#fff"/>
+<circle class="s9" cx="735" cy="110" r="1.1" fill="#fff"/>
+<circle class="s10" cx="1255" cy="25" r="1.4" fill="#fff"/>
+<circle class="s11" cx="1195" cy="89" r="0.7" fill="#fff"/>
+<circle class="s12" cx="1121" cy="66" r="1.1" fill="#fff"/>
+<circle class="s13" cx="584" cy="176" r="1.1" fill="#fff"/>
+<circle class="s14" cx="78" cy="147" r="1.4" fill="#fff"/>
+<circle class="s15" cx="856" cy="5" r="1.4" fill="#fff"/>
+<circle class="s16" cx="632" cy="46" r="1.1" fill="#fff"/>
+<circle class="s17" cx="500" cy="183" r="0.7" fill="#fff"/>
+<circle class="s18" cx="356" cy="29" r="1.4" fill="#fff"/>
+<circle class="s19" cx="532" cy="75" r="1.4" fill="#fff"/>
+<circle class="s20" cx="226" cy="49" r="0.9" fill="#fff"/>
+<circle class="s21" cx="233" cy="59" r="0.9" fill="#fff"/>
+<circle class="s22" cx="725" cy="200" r="0.7" fill="#fff"/>
+<circle class="s23" cx="1218" cy="143" r="1.4" fill="#fff"/>
+<circle class="s24" cx="616" cy="84" r="0.9" fill="#fff"/>
+<circle class="s25" cx="208" cy="71" r="0.7" fill="#fff"/>
+<circle class="s26" cx="687" cy="199" r="0.7" fill="#fff"/>
+<circle class="s27" cx="482" cy="133" r="1.1" fill="#fff"/>
+<circle class="s28" cx="148" cy="102" r="1.4" fill="#fff"/>
+<circle class="s29" cx="184" cy="157" r="1.1" fill="#fff"/>
+<circle class="s30" cx="661" cy="43" r="1.1" fill="#fff"/>
+<circle class="s31" cx="35" cy="111" r="0.7" fill="#fff"/>
+<circle class="s32" cx="469" cy="35" r="0.9" fill="#fff"/>
+<circle class="s33" cx="422" cy="47" r="0.9" fill="#fff"/>
+<circle class="s34" cx="947" cy="48" r="1.4" fill="#fff"/>
+<circle class="s35" cx="36" cy="59" r="1.1" fill="#fff"/>
+<circle class="s36" cx="441" cy="170" r="1.1" fill="#fff"/>
+<circle class="s37" cx="282" cy="48" r="0.9" fill="#fff"/>
+<circle class="s38" cx="1261" cy="128" r="0.7" fill="#fff"/>
+<circle class="s39" cx="1024" cy="18" r="0.7" fill="#fff"/>
+<circle class="s40" cx="960" cy="100" r="0.9" fill="#fff"/>
+<circle class="s41" cx="111" cy="199" r="1.4" fill="#fff"/>
+<circle class="s42" cx="109" cy="33" r="0.9" fill="#fff"/>
+<circle class="s43" cx="596" cy="138" r="1.4" fill="#fff"/>
+<circle class="s44" cx="702" cy="28" r="0.7" fill="#fff"/>
+<circle class="s45" cx="132" cy="157" r="0.9" fill="#fff"/>
+<circle class="s46" cx="1057" cy="44" r="1.1" fill="#fff"/>
+<circle class="s47" cx="978" cy="68" r="1.4" fill="#fff"/>
+<circle class="s48" cx="947" cy="189" r="1.4" fill="#fff"/>
+<circle class="s49" cx="167" cy="32" r="0.7" fill="#fff"/>
+<circle class="s50" cx="779" cy="163" r="0.9" fill="#fff"/>
+<circle class="s51" cx="928" cy="117" r="1.1" fill="#fff"/>
+<circle class="s52" cx="618" cy="163" r="0.7" fill="#fff"/>
+<circle class="s53" cx="988" cy="107" r="0.7" fill="#fff"/>
+<circle class="s54" cx="567" cy="129" r="0.9" fill="#fff"/>
+  <circle cx="1105" cy="70" r="46" fill="url(#moon)" opacity=".9"/>
+  <circle cx="1105" cy="70" r="22" fill="#fffaf0"/>
+  <circle cx="1097" cy="64" r="4" fill="#efe6cf"/><circle cx="1112" cy="78" r="3" fill="#efe6cf"/>
+  <g filter="url(#blur)">
+    <path class="aur1" d="M-40,120 C200,40 380,150 640,80 S1040,40 1320,110" fill="none" stroke="url(#aur)" stroke-width="38"/>
+    <path class="aur2" d="M-40,160 C260,90 520,170 760,120 S1100,90 1320,150" fill="none" stroke="url(#aur)" stroke-width="22"/>
+  </g>
+  <g><polygon points="330.0,330.0 470.0,205.0 494.8,330.0" fill="#2b3f6e"/>
+<polygon points="470.0,205.0 640.0,330.0 494.8,330.0" fill="#1e2d55"/>
+<polygon points="470.0,205.0 425.2,245.0 449.4,249.8 479.1,251.0 481.1,259.0" fill="#c9d8f0"/>
+<polygon points="470.0,205.0 481.1,259.0 496.9,247.0 524.4,245.0" fill="#8ea4cc"/>
+<polygon points="520.0,330.0 700.0,120.0 730.4,330.0" fill="#324a7e"/>
+<polygon points="700.0,120.0 900.0,330.0 730.4,330.0" fill="#223463"/>
+<polygon points="700.0,120.0 642.4,187.2 672.3,195.3 711.6,197.3 713.6,210.7" fill="#dbe7f7"/>
+<polygon points="700.0,120.0 713.6,210.7 732.2,190.6 764.0,187.2" fill="#97acd3"/>
+<polygon points="780.0,330.0 905.0,170.0 925.8,330.0" fill="#2e4576"/>
+<polygon points="905.0,170.0 1040.0,330.0 925.8,330.0" fill="#20315c"/>
+<polygon points="905.0,170.0 865.0,221.2 887.0,227.3 912.3,228.9 914.3,239.1" fill="#d3e1f5"/>
+<polygon points="905.0,170.0 914.3,239.1 925.8,223.8 948.2,221.2" fill="#93a8d0"/>
+<polygon points="940.0,330.0 1120.0,95.0 1149.6,330.0" fill="#344d83"/>
+<polygon points="1120.0,95.0 1310.0,330.0 1149.6,330.0" fill="#233666"/>
+<polygon points="1120.0,95.0 1062.4,170.2 1092.3,179.2 1131.3,181.5 1133.3,196.5" fill="#e2ecf9"/>
+<polygon points="1120.0,95.0 1133.3,196.5 1150.4,174.0 1180.8,170.2" fill="#9cb1d7"/></g>
+  <rect y="300" width="1280" height="60" fill="#1e3060" opacity=".35"/>
+  <g><polygon points="470.0,360.0 610.0,245.0 634.8,360.0" fill="#4565a0"/>
+<polygon points="610.0,245.0 780.0,360.0 634.8,360.0" fill="#2d4675"/>
+<polygon points="610.0,245.0 570.8,277.2 592.4,281.1 617.7,282.0 619.7,288.5" fill="#eef4fc"/>
+<polygon points="610.0,245.0 619.7,288.5 633.2,278.8 657.6,277.2" fill="#b3c5e4"/>
+<polygon points="700.0,360.0 860.0,205.0 884.8,360.0" fill="#4a6ca8"/>
+<polygon points="860.0,205.0 1010.0,360.0 884.8,360.0" fill="#304a7c"/>
+<polygon points="860.0,205.0 812.0,251.5 837.6,257.1 868.4,258.5 870.4,267.8" fill="#f1f6fd"/>
+<polygon points="860.0,205.0 870.4,267.8 881.8,253.8 905.0,251.5" fill="#b7c8e6"/>
+<polygon points="960.0,360.0 1080.0,225.0 1101.6,360.0" fill="#476aa5"/>
+<polygon points="1080.0,225.0 1230.0,360.0 1101.6,360.0" fill="#2f4878"/>
+<polygon points="1080.0,225.0 1046.4,262.8 1065.5,267.3 1086.5,268.5 1088.5,276.0" fill="#eff5fc"/>
+<polygon points="1080.0,225.0 1088.5,276.0 1100.1,264.7 1122.0,262.8" fill="#b5c7e5"/>
+<polygon points="1150.0,360.0 1240.0,250.0 1254.4,360.0" fill="#4466a1"/>
+<polygon points="1240.0,250.0 1330.0,360.0 1254.4,360.0" fill="#2d4675"/>
+<polygon points="1240.0,250.0 1214.8,280.8 1230.1,284.5 1243.6,285.4 1245.6,291.6" fill="#eef4fc"/>
+<polygon points="1240.0,250.0 1245.6,291.6 1250.9,282.3 1265.2,280.8" fill="#b3c5e4"/></g>
+  <path d="M0,420 L0,338 C140,322 300,338 470,366 C540,378 610,396 680,420 Z" fill="url(#hill2)"/>
+  <path d="M520,420 C640,392 780,350 900,312 C1000,280 1100,240 1180,232 C1230,226 1260,222 1280,222 L1280,420 Z" fill="url(#hill)"/>
+  <path d="M900,312 C1000,280 1100,240 1180,232 C1230,226 1260,222 1280,222" fill="none" stroke="#ffffff" stroke-width="3" opacity=".8"/>
+  <g><polygon points="535.4,372.0 548.0,357.6 548.0,372.0" fill="#16324f"/>
+<polygon points="548.0,372.0 548.0,357.6 560.6,372.0" fill="#0f2440"/>
+<polygon points="538.1,363.9 548.0,351.3 548.0,363.9" fill="#16324f"/>
+<polygon points="548.0,363.9 548.0,351.3 557.9,363.9" fill="#0f2440"/>
+<polygon points="540.8,356.7 548.0,345.9 548.0,356.7" fill="#16324f"/>
+<polygon points="548.0,356.7 548.0,345.9 555.2,356.7" fill="#0f2440"/>
+<polygon points="545.3,350.4 548.0,345.9 550.7,350.4" fill="#e6f0fb"/>
+<rect x="546.6" y="372.0" width="2.7" height="3.6" fill="#0b1a2e"/>
+<polygon points="550.6,378.0 566.0,360.4 566.0,378.0" fill="#16324f"/>
+<polygon points="566.0,378.0 566.0,360.4 581.4,378.0" fill="#0f2440"/>
+<polygon points="553.9,368.1 566.0,352.7 566.0,368.1" fill="#16324f"/>
+<polygon points="566.0,368.1 566.0,352.7 578.1,368.1" fill="#0f2440"/>
+<polygon points="557.2,359.3 566.0,346.1 566.0,359.3" fill="#16324f"/>
+<polygon points="566.0,359.3 566.0,346.1 574.8,359.3" fill="#0f2440"/>
+<polygon points="562.7,351.6 566.0,346.1 569.3,351.6" fill="#e6f0fb"/>
+<rect x="564.4" y="378.0" width="3.3" height="4.4" fill="#0b1a2e"/>
+<polygon points="578.8,382.0 590.0,369.2 590.0,382.0" fill="#16324f"/>
+<polygon points="590.0,382.0 590.0,369.2 601.2,382.0" fill="#0f2440"/>
+<polygon points="581.2,374.8 590.0,363.6 590.0,374.8" fill="#16324f"/>
+<polygon points="590.0,374.8 590.0,363.6 598.8,374.8" fill="#0f2440"/>
+<polygon points="583.6,368.4 590.0,358.8 590.0,368.4" fill="#16324f"/>
+<polygon points="590.0,368.4 590.0,358.8 596.4,368.4" fill="#0f2440"/>
+<polygon points="587.6,362.8 590.0,358.8 592.4,362.8" fill="#e6f0fb"/>
+<rect x="588.8" y="382.0" width="2.4" height="3.2" fill="#0b1a2e"/>
+<polygon points="1177.5,262.0 1188.0,250.0 1188.0,262.0" fill="#16324f"/>
+<polygon points="1188.0,262.0 1188.0,250.0 1198.5,262.0" fill="#0f2440"/>
+<polygon points="1179.8,255.2 1188.0,244.8 1188.0,255.2" fill="#16324f"/>
+<polygon points="1188.0,255.2 1188.0,244.8 1196.2,255.2" fill="#0f2440"/>
+<polygon points="1182.0,249.2 1188.0,240.2 1188.0,249.2" fill="#16324f"/>
+<polygon points="1188.0,249.2 1188.0,240.2 1194.0,249.2" fill="#0f2440"/>
+<polygon points="1185.8,244.0 1188.0,240.2 1190.2,244.0" fill="#e6f0fb"/>
+<rect x="1186.9" y="262.0" width="2.2" height="3.0" fill="#0b1a2e"/>
+<polygon points="1193.4,258.0 1206.0,243.6 1206.0,258.0" fill="#16324f"/>
+<polygon points="1206.0,258.0 1206.0,243.6 1218.6,258.0" fill="#0f2440"/>
+<polygon points="1196.1,249.9 1206.0,237.3 1206.0,249.9" fill="#16324f"/>
+<polygon points="1206.0,249.9 1206.0,237.3 1215.9,249.9" fill="#0f2440"/>
+<polygon points="1198.8,242.7 1206.0,231.9 1206.0,242.7" fill="#16324f"/>
+<polygon points="1206.0,242.7 1206.0,231.9 1213.2,242.7" fill="#0f2440"/>
+<polygon points="1203.3,236.4 1206.0,231.9 1208.7,236.4" fill="#e6f0fb"/>
+<rect x="1204.7" y="258.0" width="2.7" height="3.6" fill="#0b1a2e"/>
+<polygon points="1220.2,256.0 1230.0,244.8 1230.0,256.0" fill="#16324f"/>
+<polygon points="1230.0,256.0 1230.0,244.8 1239.8,256.0" fill="#0f2440"/>
+<polygon points="1222.3,249.7 1230.0,239.9 1230.0,249.7" fill="#16324f"/>
+<polygon points="1230.0,249.7 1230.0,239.9 1237.7,249.7" fill="#0f2440"/>
+<polygon points="1224.4,244.1 1230.0,235.7 1230.0,244.1" fill="#16324f"/>
+<polygon points="1230.0,244.1 1230.0,235.7 1235.6,244.1" fill="#0f2440"/>
+<polygon points="1227.9,239.2 1230.0,235.7 1232.1,239.2" fill="#e6f0fb"/>
+<rect x="1229.0" y="256.0" width="2.1" height="2.8" fill="#0b1a2e"/>
+<polygon points="636.0,392.0 650.0,376.0 650.0,392.0" fill="#16324f"/>
+<polygon points="650.0,392.0 650.0,376.0 664.0,392.0" fill="#0f2440"/>
+<polygon points="639.0,383.0 650.0,369.0 650.0,383.0" fill="#16324f"/>
+<polygon points="650.0,383.0 650.0,369.0 661.0,383.0" fill="#0f2440"/>
+<polygon points="642.0,375.0 650.0,363.0 650.0,375.0" fill="#16324f"/>
+<polygon points="650.0,375.0 650.0,363.0 658.0,375.0" fill="#0f2440"/>
+<polygon points="647.0,368.0 650.0,363.0 653.0,368.0" fill="#e6f0fb"/>
+<rect x="648.5" y="392.0" width="3.0" height="4.0" fill="#0b1a2e"/>
+<polygon points="664.8,398.0 676.0,385.2 676.0,398.0" fill="#16324f"/>
+<polygon points="676.0,398.0 676.0,385.2 687.2,398.0" fill="#0f2440"/>
+<polygon points="667.2,390.8 676.0,379.6 676.0,390.8" fill="#16324f"/>
+<polygon points="676.0,390.8 676.0,379.6 684.8,390.8" fill="#0f2440"/>
+<polygon points="669.6,384.4 676.0,374.8 676.0,384.4" fill="#16324f"/>
+<polygon points="676.0,384.4 676.0,374.8 682.4,384.4" fill="#0f2440"/>
+<polygon points="673.6,378.8 676.0,374.8 678.4,378.8" fill="#e6f0fb"/>
+<rect x="674.8" y="398.0" width="2.4" height="3.2" fill="#0b1a2e"/>
+<polygon points="27.4,360.0 40.0,345.6 40.0,360.0" fill="#16324f"/>
+<polygon points="40.0,360.0 40.0,345.6 52.6,360.0" fill="#0f2440"/>
+<polygon points="30.1,351.9 40.0,339.3 40.0,351.9" fill="#16324f"/>
+<polygon points="40.0,351.9 40.0,339.3 49.9,351.9" fill="#0f2440"/>
+<polygon points="32.8,344.7 40.0,333.9 40.0,344.7" fill="#16324f"/>
+<polygon points="40.0,344.7 40.0,333.9 47.2,344.7" fill="#0f2440"/>
+<polygon points="37.3,338.4 40.0,333.9 42.7,338.4" fill="#e6f0fb"/>
+<rect x="38.6" y="360.0" width="2.7" height="3.6" fill="#0b1a2e"/>
+<polygon points="45.2,366.0 62.0,346.8 62.0,366.0" fill="#16324f"/>
+<polygon points="62.0,366.0 62.0,346.8 78.8,366.0" fill="#0f2440"/>
+<polygon points="48.8,355.2 62.0,338.4 62.0,355.2" fill="#16324f"/>
+<polygon points="62.0,355.2 62.0,338.4 75.2,355.2" fill="#0f2440"/>
+<polygon points="52.4,345.6 62.0,331.2 62.0,345.6" fill="#16324f"/>
+<polygon points="62.0,345.6 62.0,331.2 71.6,345.6" fill="#0f2440"/>
+<polygon points="58.4,337.2 62.0,331.2 65.6,337.2" fill="#e6f0fb"/>
+<rect x="60.2" y="366.0" width="3.6" height="4.8" fill="#0b1a2e"/>
+<polygon points="78.1,372.0 90.0,358.4 90.0,372.0" fill="#16324f"/>
+<polygon points="90.0,372.0 90.0,358.4 101.9,372.0" fill="#0f2440"/>
+<polygon points="80.7,364.4 90.0,352.5 90.0,364.4" fill="#16324f"/>
+<polygon points="90.0,364.4 90.0,352.5 99.3,364.4" fill="#0f2440"/>
+<polygon points="83.2,357.6 90.0,347.4 90.0,357.6" fill="#16324f"/>
+<polygon points="90.0,357.6 90.0,347.4 96.8,357.6" fill="#0f2440"/>
+<polygon points="87.5,351.6 90.0,347.4 92.5,351.6" fill="#e6f0fb"/>
+<rect x="88.7" y="372.0" width="2.5" height="3.4" fill="#0b1a2e"/></g>
+  <!-- carve trail -->
+  <path d="M1262,236 C1215,246 1190,236 1150,252 S1080,290 1035,288 S955,300 915,322 S835,342 790,348 S700,372 650,404 L610,440" pathLength="1" fill="none" stroke="#b9cde8" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 1" stroke-dashoffset="1">
+    <animate attributeName="stroke-dashoffset" values="1;0;0" keyTimes="0;.86;1" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;.9;.9;0" keyTimes="0;.05;.85;1" dur="8s" repeatCount="indefinite"/>
+  </path>
+  <g>
+    <animateMotion dur="8s" repeatCount="indefinite" rotate="auto-reverse" keyPoints="0;1;1" keyTimes="0;.86;1" calcMode="linear"><mpath href="#ride"/></animateMotion>
+    <g transform="scale(1.25)">
+    <g>
+      <!-- board -->
+      <rect x="-19" y="-2.5" width="38" height="5" rx="2.5" fill="#ff5d73"/>
+      <rect x="-15" y="-3.6" width="30" height="1.6" rx="0.8" fill="#ffd6dc" opacity=".7"/>
+      <!-- legs -->
+      <path d="M-8,-3 L-11,-11 L-5,-17" fill="none" stroke="#1d2b4f" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M8,-3 L6,-11 L2,-17" fill="none" stroke="#1d2b4f" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- torso -->
+      <path d="M-1,-16 L-4,-29" stroke="#ffc53d" stroke-width="8" stroke-linecap="round"/>
+      <!-- arms -->
+      <path d="M-3,-26 L-13,-24 L-20,-19" fill="none" stroke="#ffc53d" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M-3,-26 L8,-29 L15,-33" fill="none" stroke="#ffc53d" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- head -->
+      <circle cx="-5.5" cy="-36" r="5" fill="#f2c6a0"/>
+      <path d="M-10.6,-36.5 A5.1,5.1 0 0 1 -0.4,-36.5 Z" fill="#ff5d73"/>
+      <circle cx="-5.5" cy="-42" r="1.8" fill="#ff5d73"/>
+      <rect x="-11.2" y="-36" width="7.2" height="3" rx="1.4" fill="#5fd0ff"/>
+      <!-- spray -->
+      <g class="spray" fill="#fff">
+        <circle cx="20" cy="-1" r="2.2"/><circle cx="25" cy="-5" r="1.6"/><circle cx="29" cy="-1" r="1.2"/>
+        <circle cx="23" cy="-9" r="1.1"/><circle cx="31" cy="-6" r="0.9"/>
+      </g>
+    </g></g>
+  </g>
+  <circle class="f0" cx="682.6" cy="-6" r="1.66" fill="#fff" opacity="0.92"/>
+<circle class="f1" cx="332.3" cy="-6" r="1.81" fill="#fff" opacity="0.51"/>
+<circle class="f2" cx="565.9" cy="-6" r="0.93" fill="#fff" opacity="0.84"/>
+<circle class="f3" cx="1148.2" cy="-6" r="1.08" fill="#fff" opacity="0.89"/>
+<circle class="f4" cx="1238.5" cy="-6" r="1.20" fill="#fff" opacity="0.94"/>
+<circle class="f5" cx="1065.5" cy="-6" r="1.09" fill="#fff" opacity="0.55"/>
+<circle class="f6" cx="407.7" cy="-6" r="2.10" fill="#fff" opacity="0.46"/>
+<circle class="f7" cx="424.3" cy="-6" r="1.92" fill="#fff" opacity="0.84"/>
+<circle class="f8" cx="1243.8" cy="-6" r="0.99" fill="#fff" opacity="0.59"/>
+<circle class="f9" cx="165.8" cy="-6" r="1.56" fill="#fff" opacity="0.52"/>
+<circle class="f10" cx="1176.5" cy="-6" r="1.83" fill="#fff" opacity="0.79"/>
+<circle class="f11" cx="544.4" cy="-6" r="0.93" fill="#fff" opacity="0.49"/>
+<circle class="f12" cx="1096.0" cy="-6" r="0.92" fill="#fff" opacity="0.73"/>
+<circle class="f13" cx="1186.1" cy="-6" r="1.28" fill="#fff" opacity="0.50"/>
+<circle class="f14" cx="206.7" cy="-6" r="0.89" fill="#fff" opacity="0.83"/>
+<circle class="f15" cx="371.1" cy="-6" r="1.70" fill="#fff" opacity="0.58"/>
+<circle class="f16" cx="19.6" cy="-6" r="2.12" fill="#fff" opacity="0.92"/>
+<circle class="f17" cx="136.0" cy="-6" r="2.27" fill="#fff" opacity="0.65"/>
+<circle class="f18" cx="648.6" cy="-6" r="2.04" fill="#fff" opacity="0.80"/>
+<circle class="f19" cx="814.1" cy="-6" r="1.53" fill="#fff" opacity="0.49"/>
+<circle class="f20" cx="948.3" cy="-6" r="1.26" fill="#fff" opacity="0.89"/>
+<circle class="f21" cx="858.3" cy="-6" r="1.31" fill="#fff" opacity="0.53"/>
+<circle class="f22" cx="570.7" cy="-6" r="1.27" fill="#fff" opacity="0.57"/>
+<circle class="f23" cx="1236.1" cy="-6" r="1.36" fill="#fff" opacity="0.69"/>
+<circle class="f24" cx="643.5" cy="-6" r="1.16" fill="#fff" opacity="0.49"/>
+<circle class="f25" cx="511.4" cy="-6" r="0.88" fill="#fff" opacity="0.74"/>
+<circle class="f26" cx="677.4" cy="-6" r="2.15" fill="#fff" opacity="0.64"/>
+<circle class="f27" cx="417.5" cy="-6" r="2.57" fill="#fff" opacity="0.47"/>
+<circle class="f28" cx="1069.2" cy="-6" r="2.41" fill="#fff" opacity="0.52"/>
+<circle class="f29" cx="670.4" cy="-6" r="1.71" fill="#fff" opacity="0.74"/>
+<circle class="f30" cx="1142.8" cy="-6" r="2.03" fill="#fff" opacity="0.52"/>
+<circle class="f31" cx="461.7" cy="-6" r="0.99" fill="#fff" opacity="0.76"/>
+<circle class="f32" cx="871.3" cy="-6" r="1.68" fill="#fff" opacity="0.70"/>
+<circle class="f33" cx="685.1" cy="-6" r="1.99" fill="#fff" opacity="0.49"/>
+<circle class="f34" cx="339.9" cy="-6" r="2.11" fill="#fff" opacity="0.70"/>
+<circle class="f35" cx="489.7" cy="-6" r="1.66" fill="#fff" opacity="0.77"/>
+<circle class="f36" cx="99.2" cy="-6" r="1.07" fill="#fff" opacity="0.73"/>
+<circle class="f37" cx="16.0" cy="-6" r="0.91" fill="#fff" opacity="0.79"/>
+<circle class="f38" cx="372.3" cy="-6" r="1.73" fill="#fff" opacity="0.90"/>
+<circle class="f39" cx="255.0" cy="-6" r="2.56" fill="#fff" opacity="0.86"/>
+<circle class="f40" cx="1239.2" cy="-6" r="1.61" fill="#fff" opacity="0.56"/>
+<circle class="f41" cx="744.3" cy="-6" r="1.06" fill="#fff" opacity="0.86"/>
+<circle class="f42" cx="651.2" cy="-6" r="2.40" fill="#fff" opacity="0.69"/>
+<circle class="f43" cx="31.8" cy="-6" r="0.81" fill="#fff" opacity="0.52"/>
+<circle class="f44" cx="440.3" cy="-6" r="1.37" fill="#fff" opacity="0.87"/>
+<circle class="f45" cx="153.7" cy="-6" r="2.47" fill="#fff" opacity="0.64"/>
+<circle class="f46" cx="502.9" cy="-6" r="2.60" fill="#fff" opacity="0.59"/>
+<circle class="f47" cx="61.8" cy="-6" r="0.98" fill="#fff" opacity="0.57"/>
+<circle class="f48" cx="340.1" cy="-6" r="1.72" fill="#fff" opacity="0.89"/>
+<circle class="f49" cx="1039.3" cy="-6" r="1.94" fill="#fff" opacity="0.81"/>
+<circle class="f50" cx="63.3" cy="-6" r="2.12" fill="#fff" opacity="0.59"/>
+<circle class="f51" cx="62.7" cy="-6" r="2.47" fill="#fff" opacity="0.60"/>
+<circle class="f52" cx="946.0" cy="-6" r="2.56" fill="#fff" opacity="0.73"/>
+<circle class="f53" cx="504.8" cy="-6" r="1.10" fill="#fff" opacity="0.70"/>
+<circle class="f54" cx="281.6" cy="-6" r="2.43" fill="#fff" opacity="0.55"/>
+<circle class="f55" cx="116.1" cy="-6" r="1.42" fill="#fff" opacity="0.73"/>
+<circle class="f56" cx="1135.7" cy="-6" r="2.15" fill="#fff" opacity="0.64"/>
+<circle class="f57" cx="432.9" cy="-6" r="0.91" fill="#fff" opacity="0.70"/>
+<circle class="f58" cx="805.9" cy="-6" r="2.35" fill="#fff" opacity="0.65"/>
+<circle class="f59" cx="570.7" cy="-6" r="2.52" fill="#fff" opacity="0.47"/>
+<circle class="f60" cx="908.2" cy="-6" r="2.41" fill="#fff" opacity="0.65"/>
+<circle class="f61" cx="1186.3" cy="-6" r="2.29" fill="#fff" opacity="0.50"/>
+<circle class="f62" cx="197.6" cy="-6" r="1.74" fill="#fff" opacity="0.77"/>
+<circle class="f63" cx="978.9" cy="-6" r="1.62" fill="#fff" opacity="0.57"/>
+<circle class="f64" cx="1177.5" cy="-6" r="1.96" fill="#fff" opacity="0.77"/>
+<circle class="f65" cx="894.2" cy="-6" r="1.00" fill="#fff" opacity="0.64"/>
+<circle class="f66" cx="286.2" cy="-6" r="1.88" fill="#fff" opacity="0.93"/>
+<circle class="f67" cx="825.1" cy="-6" r="2.39" fill="#fff" opacity="0.93"/>
+<circle class="f68" cx="902.0" cy="-6" r="1.35" fill="#fff" opacity="0.66"/>
+<circle class="f69" cx="329.3" cy="-6" r="2.00" fill="#fff" opacity="0.62"/>
+  <!-- title -->
+  <g class="ttl" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="104" font-weight="900" letter-spacing="6">
+    <text x="79.0" y="201.0" fill="#0e1a36">HORLESQ</text>
+<text x="78.1" y="199.9" fill="#0e1a36">HORLESQ</text>
+<text x="77.2" y="198.8" fill="#0e1a36">HORLESQ</text>
+<text x="76.3" y="197.7" fill="#0e1a36">HORLESQ</text>
+<text x="75.4" y="196.6" fill="#0e1a36">HORLESQ</text>
+<text x="74.5" y="195.5" fill="#0e1a36">HORLESQ</text>
+<text x="73.6" y="194.4" fill="#0e1a36">HORLESQ</text>
+<text x="72.7" y="193.3" fill="#0e1a36">HORLESQ</text>
+<text x="71.8" y="192.2" fill="#0e1a36">HORLESQ</text>
+<text x="70.9" y="191.1" fill="#5a7fc0">HORLESQ</text>
+    <text x="70" y="190" fill="url(#ttl)" filter="url(#glow)">HORLESQ</text>
+  </g>
+  <text class="sub" x="76" y="242" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="25" font-weight="600" fill="#cfe2ff" letter-spacing="1">Automation Engineer</text>
+  <text class="tag" x="76" y="276" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="17" fill="#8fb0e0" letter-spacing="2">SOFTWARE · EMBEDDED · AI · DESIGN</text>
+</g>
+<rect x="1" y="1" width="1278" height="418" rx="21" fill="none" stroke="#9cc4ff" stroke-opacity=".25" stroke-width="2"/>
+</svg>
